@@ -1,6 +1,6 @@
 const templatemodel = require("../model/template")
    
-// creating a template
+// create a template
 const template = async(req, res) => {
     const Template = new templatemodel ({
         template_name: req.body.template_name,
